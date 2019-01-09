@@ -4,7 +4,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/janeczku/go-dnsmasq.svg?maxAge=86400)][hub]
 [![License](https://img.shields.io/github/license/janeczku/go-dnsmasq.svg?maxAge=86400)]()
 
-[release]: https://github.com/janeczku/go-dnsmasq/releases
+[release]: https://github.com/dreadl0ck/go-dnsmasq/releases
 [hub]: https://hub.docker.com/r/janeczku/go-dnsmasq/
 
 go-dnsmasq is a lightweight (1.2 MB) DNS caching server/forwarder with minimal filesystem and runtime overhead.
@@ -79,7 +79,7 @@ Set to your StatHat account email address
 
 #### Run from the command line
 
-Download the binary for your OS from the [releases page](https://github.com/janeczku/go-dnsmasq/releases/latest).    
+Download the binary for your OS from the [releases page](https://github.com/dreadl0ck/go-dnsmasq/releases/latest).    
 
 go-dnsmasq is available in two versions. The minimal version (`go-dnsmasq-min`) has a lower memory footprint but doesn't have caching, stats reporting and systemd support.
 

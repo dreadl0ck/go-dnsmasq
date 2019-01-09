@@ -10,15 +10,15 @@ RUN \
   go get github.com/miekg/dns && \
   go get github.com/rcrowley/go-metrics && \
   go get github.com/rcrowley/go-metrics/stathat && \
-  go get github.com/Sirupsen/logrus && \
+  go get github.com/sirupsen/logrus && \
   go get github.com/stathat/go
 
 ENV USER root
 
-ADD . /go/src/github.com/janeczku/go-dnsmasq
+ADD . /go/src/github.com/dreadl0ck/go-dnsmasq
 
 COPY scripts/upx /usr/local/bin/
 
 RUN chmod +x /usr/local/bin/upx
 
-WORKDIR /go/src/github.com/janeczku/go-dnsmasq
+WORKDIR /go/src/github.com/dreadl0ck/go-dnsmasq
